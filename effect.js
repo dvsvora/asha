@@ -133,7 +133,7 @@ $('document').ready(function(){
 
 	$('#light_candle').click(function(){
 		$('.fuego').fadeIn('slow');
-		$(this).fadeOut('slow').delay(5000).promise().done(function(){
+		$(this).fadeOut('slow').promise().done(function(){
 			$('#wish_message').click();
 		});
 	});
