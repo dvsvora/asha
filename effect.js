@@ -126,7 +126,7 @@ $('document').ready(function(){
 
 	$('#cake_fadein').click(function(){
 		$('.cake').fadeIn('slow');
-		$(this).fadeOut('slow').delay(3000).promise().done(function(){
+		$(this).fadeOut('slow').delay(5000).promise().done(function(){
 			$('#light_candle').fadeIn('slow');
 		});
 	});
@@ -144,7 +144,7 @@ $('document').ready(function(){
 
 		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7').stop();
 		$('#b1').attr('id','b11');
-		$('#b2').attr('id','b22')
+		$('#b2').attr('id','b22').delay(5000);
 		$('#b3').attr('id','b33')
 		$('#b4').attr('id','b44')
 		$('#b5').attr('id','b55')
